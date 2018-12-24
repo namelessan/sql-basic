@@ -1,4 +1,4 @@
 SELECT first_name, last_name, shirt_number as number
 FROM persons
-WHERE shirt_number = 1
+WHERE job = 'Goalie' AND shirt_number = 1
 ORDER BY id;
