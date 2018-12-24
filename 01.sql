@@ -1,3 +1,3 @@
-SELECT fifa_code
+SELECT name, fifa_code
 FROM teams
 ORDER BY id;
